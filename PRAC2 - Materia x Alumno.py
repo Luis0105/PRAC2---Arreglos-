@@ -21,10 +21,10 @@ fin = time.time()
 
 datos = [
     ["Alumno", "Materia", "Calificación", "Posición"],
-    [6, 322, calificaciones, indices]
+    [322, 6, calificaciones, indices]
 ]
 
 # Mostramos los resultados
-print("Matriz Alumno x Materia")
+print("Matriz Materia x Alumno")
 print(tabulate(datos, headers='firstrow', tablefmt='grid'))
 print(f"Tiempo de ejecución de la búsqueda: {fin-inicio:.6f} segundos")
